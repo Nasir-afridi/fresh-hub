@@ -4,7 +4,11 @@ const TopNav = () => {
   return (
     <>
       <div className="icon">
-        <img src="./public/Search-svg.svg" className="search-icon" alt="" />
+        <img
+          src="./public/Search-svg.svg"
+          className="search-icon"
+          alt="No image"
+        />
       </div>
     </>
   );
