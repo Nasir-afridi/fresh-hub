@@ -6,10 +6,10 @@ const TopNav = () => {
     <>
       <nav>
         <div className="icon">
-          <Link to="/">
+          <Link to="/Home">
             <img
               src="/FreshHub-Logo.webp"
-              className="search-icon"
+              className="main-icon"
               alt="No image"
             />
           </Link>
