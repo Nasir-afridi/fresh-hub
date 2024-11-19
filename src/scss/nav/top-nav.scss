@@ -1,26 +1,33 @@
 *{
   padding: 0;
   margin: 0;
-  
   list-style: none;
   box-sizing: border-box;
 }
-body{
+
+body {
   height: 2000px;
 }
+
 .icon {
-  width: 120px;
+  width: 50px;
   margin-top: 15px;
   cursor: pointer;
 }
 .list {
   width: 100%;
 }
+
 nav{
   display: flex;
   align-items: center;
-  z-index: 2;
+  position: fixed;
+  width: 80%;
+  z-index: 10;
+  background-color: whitesmoke;
 }
+
+
 @media (min-width: 1280px) {
   nav {
       margin-left: 8%; 
@@ -41,7 +48,9 @@ li {
 
 .hero-container {
   background: linear-gradient(180deg, #FCFCF7 6.5%, #1F5E7C 100%);
-  height: 400px;
+  height: 520px;
+  margin-top: 120px;
+
 }
 
 .sub-container {
@@ -54,12 +63,12 @@ li {
 }
 
 .hero-section-heading{
-  font-size: 50px;
+  font-size: 80px;
   margin-left: 130px;
   font-family: Palanquin;
   font-weight: bolder;
-  line-height:50px;
-  width: 400px;
+  line-height:75px;
+  z-index: 2;
 }
 @media (max-width: 720px) {
   .hero-section-heading {
@@ -79,22 +88,68 @@ li {
 }
 
 .hero-img {
-  width: 350px;
+  max-width: 400px;
   position: relative;
   bottom: 30;
+
 }
 
 .description {
   font-size: 20px;
-  font-family: 'Open-Sans';
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
   line-height: 32px;
   margin-left: 135px;
   color: rgba(0, 0, 0, 1);
-  ;
+  margin-top: 25px;
 }
 
 @media (max-width: 720px) {
   .description {
       margin-left: 5%;
   }
+}
+
+.hero-button {
+  background-color:black;
+  color: white;
+  font-family: Palanquin;
+  border: 1px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-weight: bold;
+  margin-left: 135px;
+  margin-top: 25px;
+}
+
+.icons-container {
+  margin-top: 50px;
+}
+
+.features-container {
+  display: flex;
+  justify-content: center;
+}
+
+.icon-1-container {
+  display: flex;
+  margin-right: 50px;
+}
+
+.headphone-icon {
+  width: 20px;
+  margin-left: 20px;
+}
+
+.descrip {
+  font-size: 10px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.Descrip {
+  font-weight: normal;
+  color: gray;
 }
