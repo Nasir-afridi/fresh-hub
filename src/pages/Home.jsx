@@ -37,26 +37,23 @@ const Home = () => {
               description={element.description}
             />
           ))}
-          {/* <Feature
-            image="/svgviewer-output.svg"
-            heading="Support 24 h"
-            description="Dedicated Support"
-          />
-          <Feature
-            image="/svgviewer-output-2.svg"
-            heading="Secure Payment"
-            description="Ensure your money is safe"
-          />
-          <Feature
-            image="/svgviewer-output-3.svg"
-            heading="Refundable"
-            description="Demage items can refund it"
-          />
-          <Feature
-            image="/svgviewer-output-4.svg"
-            heading="Free Shipping"
-            description="Order Over $40"
-          /> */}
+        </div>
+      </div>
+      <div className="banner-container">
+        <div className="apple-img-container">
+          <img src="/apple-img.png" className="apple-img" />
+        </div>
+
+        <div className="text-containers">
+          <center>
+            <p className="summer">SUMMER SALE</p>
+            <p className="sale">40%OFF</p>
+            <p className="fresh">Fresh Fruit</p>
+            <p className="hundred">%100</p>
+            <a href="#" className="button-shop">
+              Shop Now &gt;
+            </a>
+          </center>
         </div>
       </div>
     </>
