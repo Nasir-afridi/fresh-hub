@@ -1,8 +1,10 @@
 import React from "react";
 import Feature from "../components/home/feature";
+import Categories from "../components/home/categories";
 import { Features } from "../constant/features";
 
 const Home = () => {
+  console.log("parent");
   return (
     <>
       <div className="hero-container">
@@ -73,39 +75,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <p className="top-category">Top Category</p>
-      <div className="category">
-        <div className="item-1">
-          <center>
-            <img src="/meat-img.png" className="meat-img" />
-          </center>
-          <p className="meat">Meat</p>
-        </div>
-        <div className="item-1">
-          <center>
-            <img src="/meat-img.png" className="meat-img" />
-          </center>
-          <p className="meat">Meat</p>
-        </div>
-        <div className="item-1">
-          <center>
-            <img src="/meat-img.png" className="meat-img" />
-          </center>
-          <p className="meat">Meat</p>
-        </div>
-        <div className="item-1">
-          <center>
-            <img src="/meat-img.png" className="meat-img" />
-          </center>
-          <p className="meat">Meat</p>
-        </div>
-        <div className="item-1">
-          <center>
-            <img src="/meat-img.png" className="meat-img" />
-          </center>
-          <p className="meat">Meat</p>
-        </div>
-      </div>
+      <Categories />
     </>
   );
 };

@@ -15,7 +15,7 @@ const TopNav = () => {
           </Link>
         </div>
 
-        <div class="list">
+        <div className="list">
           <ul className="unordered-list">
             <li>
               <Link to="/Home">Home</Link>
