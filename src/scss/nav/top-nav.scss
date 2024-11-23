@@ -158,28 +158,37 @@ body {
   background-color: #f0f0f0;
 }
 
+.banner-section {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 1.5%;
+  margin-top: 60px;
+}
+
 .banner-container {
   background-color:rgba(31, 94, 124, 0.22);
   display: flex;
-  padding: 20px;
-  max-width: 68%;
+  max-width: 45%;
 }
 
 .apple-img{
   max-width: 100%;
   height: auto;
+  padding-top: 45px;
 }
 
 .apple-img-container {
   flex: 1;
   text-align: center;
-  max-width: 500px;
-  height: auto;
+  max-width: 60%;
 }
 
-.text-container {
+.text-containers {
   justify-content: center;
+  padding-top: 20px;
   align-items: center;
+  margin-left: 30px;
 }
 
 .summer {
@@ -192,7 +201,7 @@ body {
   color: #1F5E7C;
   font-weight: bolder;
   text-align: center;
-  margin-top: 18px;
+  margin-top: 15px;
 }
 
 .fresh {
@@ -212,13 +221,66 @@ body {
 
 .button-shop {
   background-color: rgba(255, 255, 255, 1);
-  padding-top: 12px;
-  padding-bottom: 12px;
-  padding-left: 25px;
-  padding-right: 25px;
+  padding: 12px 25px;
   font-family: Palanquin;
   font-weight: bolder;
   font-size: 18px;
   border-color: black;
   border-width: 1px;
+}
+
+.banner-left {
+  background-color: rgba(253, 248, 208, 1);
+  max-width: 20%;
+} 
+
+.Fresh {
+  font-weight: bolder;
+  font-family: Palanquin;
+  font-size: 35px;
+  line-height: 35px;
+  padding-top: 40px;
+  margin-bottom: 20px;
+}
+
+.yougrat-img {
+  max-width: 100%;
+}
+
+.yougurt-img-container {
+  max-width: 100%;
+}
+
+.category {
+  justify-content: center;
+  display: flex;
+  gap: 30px;
+  margin-top:3% ;
+}
+
+.item-1 {
+  background-color: rgba(255, 255, 255, 1);
+  max-width: 10%;
+  font-family: Palanquin;
+  font-weight: 600;
+  padding: 15px;
+  border-radius: 25px;
+}
+
+.meat-img {
+  max-width: 50%;
+  margin-bottom: 10px;
+  
+}
+
+.meat {
+  text-align: center;
+}
+
+.top-category {
+  margin-left: 17%;
+  margin-top: 8%;
+  font-weight: 900;
+  font-family: Inter;
+  font-size: larger;
 }

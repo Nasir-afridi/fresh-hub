@@ -39,21 +39,71 @@ const Home = () => {
           ))}
         </div>
       </div>
-      <div className="banner-container">
-        <div className="apple-img-container">
-          <img src="/apple-img.png" className="apple-img" />
+      <div className="banner-section">
+        <div className="banner-container">
+          <div className="apple-img-container">
+            <img src="/apple-img.png" className="apple-img" />
+          </div>
+
+          <div className="text-containers">
+            <center>
+              <p className="summer">SUMMER SALE</p>
+              <p className="sale">40%OFF</p>
+              <p className="fresh">Fresh Fruit</p>
+              <p className="hundred">%100</p>
+              <a href="#" className="button-shop">
+                Shop Now &gt;
+              </a>
+            </center>
+          </div>
         </div>
 
-        <div className="text-containers">
+        <div className="banner-left">
+          <div className="banner-text">
+            <center>
+              <p className="Fresh">
+                Fresh <br /> Delivered <br /> Daily
+              </p>
+            </center>
+            <div className="yougurat-image">
+              <div className="yougurt-img-container">
+                <img src="/yougart-img.png" className="yougurt-img" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p className="top-category">Top Category</p>
+      <div className="category">
+        <div className="item-1">
           <center>
-            <p className="summer">SUMMER SALE</p>
-            <p className="sale">40%OFF</p>
-            <p className="fresh">Fresh Fruit</p>
-            <p className="hundred">%100</p>
-            <a href="#" className="button-shop">
-              Shop Now &gt;
-            </a>
+            <img src="/meat-img.png" className="meat-img" />
           </center>
+          <p className="meat">Meat</p>
+        </div>
+        <div className="item-1">
+          <center>
+            <img src="/meat-img.png" className="meat-img" />
+          </center>
+          <p className="meat">Meat</p>
+        </div>
+        <div className="item-1">
+          <center>
+            <img src="/meat-img.png" className="meat-img" />
+          </center>
+          <p className="meat">Meat</p>
+        </div>
+        <div className="item-1">
+          <center>
+            <img src="/meat-img.png" className="meat-img" />
+          </center>
+          <p className="meat">Meat</p>
+        </div>
+        <div className="item-1">
+          <center>
+            <img src="/meat-img.png" className="meat-img" />
+          </center>
+          <p className="meat">Meat</p>
         </div>
       </div>
     </>
