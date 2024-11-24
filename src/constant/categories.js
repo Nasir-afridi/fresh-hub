@@ -1,25 +1,23 @@
 
 export const CATEGORIES = [
   {
-    "key": "a",
     "image": "/meat-img.png",
     "label": "Meat",
   },
   {
-    "key": "b",
-    "image": "/meat-img.png",
-    "label": "Meat",
+    "image": "/fruits-img.png",
+    "label": "Fruits",
   },
   {
-    "image": "/meat-img.png",
-    "label": "Meat",
+    "image": "/vegetable-img.png",
+    "label": "Vegetable",
   },
   {
-    "image": "/meat-img.png",
-    "label": "Meat",
+    "image": "/snacks-img.png",
+    "label": "Snacks",
   },
   {
-    "image": "/meat-img.png",
-    "label": "Meat",
+    "image": "/milk-img.png",
+    "label": "Milk",
   }
 ];

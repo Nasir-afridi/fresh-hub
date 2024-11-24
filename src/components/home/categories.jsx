@@ -3,9 +3,6 @@ import Category from "./categories/index";
 import { useState } from "react";
 
 const Categories = () => {
-  const [counter, setCounter] = useState(0);
-
-  console.log("child");
   return (
     <div>
       <p className="top-category">Top Category</p>
