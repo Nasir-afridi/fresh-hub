@@ -270,7 +270,7 @@ body {
 .meat-img {
   max-width: 50%;
   margin-bottom: 10px;
-  
+  margin-left: 20%;
 }
 
 .meat {
@@ -278,9 +278,68 @@ body {
 }
 
 .top-category {
-  margin-left: 17%;
+  margin-left: 15%;
   margin-top: 8%;
   font-weight: 900;
   font-family: Inter;
   font-size: larger;
+}
+
+ .eco-container {
+  max-width: 65%;
+  margin-left: 18%;
+  margin-top: 5%;
+ }
+
+.eco-background-img {
+  display: flex;
+  background: rgb(236, 242, 194);
+  border-radius: 15px;
+}
+
+.left-div {
+  max-width: 80%;
+  margin-right: 10%;
+}
+
+.fruits-img {
+  max-width: 80%;
+  margin-left: 20%;
+  margin-top: 10%;
+  margin-bottom: 20%;
+}
+
+ .eco-text {
+  width: 60%;
+}
+
+.eco-para {
+  font-size: 35px;
+  font-weight: 700;
+  font-family: Palanquin;  
+  color: rgba(31, 94, 124, 1);
+  margin-top: 10%;
+}
+
+.eco-span {
+  color: black;
+}
+
+.discover {
+  font-size: 20px;
+  font-family: Open Sans;
+  margin-top: 4%;
+  line-height: 28px;
+  width:100%;
+  margin-bottom: 10%;
+}
+
+.eco-btn {
+  font-weight: bolder;
+  background-color:rgba(255, 255, 255, 1);
+  color: rgba(0, 0, 0, 1);
+  font-family: Palanquin;
+  border-width: 1px;
+  border-color: black;
+  padding: 13px 45px;
 }

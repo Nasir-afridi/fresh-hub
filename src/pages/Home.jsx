@@ -3,6 +3,7 @@ import Feature from "../components/home/feature";
 import Categories from "../components/home/categories";
 import { Features } from "../constant/features";
 import Banner from "../components/banner/banner";
+import Eco from "../components/eco-container/Eco";
 
 const Home = () => {
   return (
@@ -43,6 +44,7 @@ const Home = () => {
       </div>
       <Banner />
       <Categories />
+      <Eco />
     </>
   );
 };
