@@ -35,7 +35,6 @@ const TopNav = () => {
           </ul>
         </div>
       </nav>
-      <hr />
     </>
   );
 };
