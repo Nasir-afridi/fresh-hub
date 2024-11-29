@@ -11,11 +11,9 @@ function EcoRight() {
         our grocery web store, connecting you with sustainable choices that
         support both the community and the planet.
       </p>
-      <center>
-        <a href="" className="eco-btn">
-          Learn More
-        </a>
-      </center>
+      <a href="" className="eco-btn">
+        Learn More
+      </a>
     </div>
   );
 }

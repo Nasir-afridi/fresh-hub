@@ -6,7 +6,7 @@
 }
 
 body {
-  height: 2000px;
+  height: 3000px;
 }
 
 .icon {
@@ -21,7 +21,6 @@ body {
 nav{
   display: flex;
   align-items: center;
-  position: fixed;
   width: 80%;
   z-index: 10;
   background-color: whitesmoke;
@@ -49,7 +48,7 @@ li {
 .hero-container {
   background: linear-gradient(180deg, #FCFCF7 6.5%, #1F5E7C 100%);
   height: 520px;
-  margin-top: 120px;
+  margin-top: 2%;
 
 }
 
@@ -59,16 +58,15 @@ li {
 }
 
 .container {
-  margin-top: 80px;
+  margin-top: 3%;
 }
 
 .hero-section-heading{
-  font-size: 80px;
-  margin-left: 130px;
+  font-size: 5rem;
+  margin-left: 13%;
   font-family: Palanquin;
   font-weight: bolder;
   line-height:75px;
-  z-index: 2;
 }
 @media (max-width: 720px) {
   .hero-section-heading {
@@ -95,19 +93,13 @@ li {
 }
 
 .description {
-  font-size: 20px;
-  font-family: 'Open Sans', sans-serif;
+  font-size:  1.49rem;
+  font-family: Open Sans;
   font-weight: 300;
   line-height: 32px;
-  margin-left: 135px;
+  margin-left: 14%;
   color: rgba(0, 0, 0, 1);
   margin-top: 25px;
-}
-
-@media (max-width: 720px) {
-  .description {
-      margin-left: 5%;
-  }
 }
 
 .hero-button {
@@ -116,9 +108,9 @@ li {
   font-family: Palanquin;
   border: 1px;
   font-weight: bold;
-  margin-left: 135px;
-  margin-top: 25px;
-  padding: 15px 25px;
+  margin-left: 14%;
+  margin-top: 4%;
+  padding: 15px 51px;
 }
 
 .icons-container {
@@ -342,4 +334,79 @@ body {
   border-width: 1px;
   border-color: black;
   padding: 13px 45px;
+}
+
+.line-one {
+  display: flex;
+  justify-content: center;
+  gap: 1%;
+  margin-bottom: 2%;
+}
+
+.line-two {
+  display: flex;
+  justify-content: center;
+  gap: 1%;
+}
+
+.cart-one {
+  background-color: rgba(255, 255, 255, 1);
+  max-width: 15%;
+  padding-top: 35px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 10px;
+  border-radius: 20px;
+}
+
+.cart-img {
+  max-width: 100%;
+  justify-content: center;
+}
+
+.apple {
+  max-width: 90%;
+}
+
+.cart-1 {
+  display: flex;
+  align-items: center;
+  margin-top: 10%;
+}
+
+.cart-text {
+  margin-left: 8%;
+  max-width: 30%;
+  line-height: 30px;
+  font-family: Open sans;
+  font-size: 20px;
+}
+
+.apple-para {
+  font-weight: 500;
+}
+
+.dollar {
+  font-weight: bolder; 
+}
+
+.cart-imgs {
+  margin-left: 50%;
+  max-width: 80%;
+  cursor: pointer;
+}
+
+.last-icons {
+  display: flex;
+  align-items: center;
+  margin-left: 6%;
+  margin-top: 2%;
+}
+
+.stars {
+  max-width: 100%;
+}
+
+.star-icon {
+  max-width: 60%;
 }

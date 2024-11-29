@@ -45,6 +45,189 @@ const Home = () => {
       <Banner />
       <Categories />
       <Eco />
+
+      <div className="sell-container">
+        <div className="line-one">
+          <div className="cart-one">
+            <div className="cart-img">
+              <img src="apple-img.png" className="apple" alt="" />
+            </div>
+            <div className="cart-1">
+              <div className="cart-text">
+                <p className="apple-para">Apple</p>
+                <p className="dollar">$13.00</p>
+              </div>
+              <div className="cart-imgs">
+                <i className="fa-solid fa-cart-arrow-down"></i>
+              </div>
+            </div>
+            <div className="last-icons">
+              <div className="stars">
+                <img src="/stars-icon.png" className="star-icon" />
+              </div>
+              <div className="heart">
+                <i className="fa-regular fa-heart"></i>
+              </div>
+            </div>
+          </div>
+          <div className="cart-one">
+            <div className="cart-img">
+              <img src="apple-img.png" className="apple" alt="" />
+            </div>
+            <div className="cart-1">
+              <div className="cart-text">
+                <p className="apple-para">Apple</p>
+                <p className="dollar">$13.00</p>
+              </div>
+              <div className="cart-imgs">
+                <i className="fa-solid fa-cart-arrow-down"></i>
+              </div>
+            </div>
+            <div className="last-icons">
+              <div className="stars">
+                <img src="/stars-icon.png" className="star-icon" />
+              </div>
+              <div className="heart">
+                <i className="fa-regular fa-heart"></i>
+              </div>
+            </div>
+          </div>
+          <div className="cart-one">
+            <div className="cart-img">
+              <img src="apple-img.png" className="apple" alt="" />
+            </div>
+            <div className="cart-1">
+              <div className="cart-text">
+                <p className="apple-para">Apple</p>
+                <p className="dollar">$13.00</p>
+              </div>
+              <div className="cart-imgs">
+                <i className="fa-solid fa-cart-arrow-down"></i>
+              </div>
+            </div>
+            <div className="last-icons">
+              <div className="stars">
+                <img src="/stars-icon.png" className="star-icon" />
+              </div>
+              <div className="heart">
+                <i className="fa-regular fa-heart"></i>
+              </div>
+            </div>
+          </div>
+          <div className="cart-one">
+            <div className="cart-img">
+              <img src="apple-img.png" className="apple" alt="" />
+            </div>
+            <div className="cart-1">
+              <div className="cart-text">
+                <p className="apple-para">Apple</p>
+                <p className="dollar">$13.00</p>
+              </div>
+              <div className="cart-imgs">
+                <i className="fa-solid fa-cart-arrow-down"></i>
+              </div>
+            </div>
+            <div className="last-icons">
+              <div className="stars">
+                <img src="/stars-icon.png" className="star-icon" />
+              </div>
+              <div className="heart">
+                <i className="fa-regular fa-heart"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="line-one">
+        <div className="cart-one">
+          <div className="cart-img">
+            <img src="apple-img.png" className="apple" alt="" />
+          </div>
+          <div className="cart-1">
+            <div className="cart-text">
+              <p className="apple-para">Apple</p>
+              <p className="dollar">$13.00</p>
+            </div>
+            <div className="cart-imgs">
+              <i className="fa-solid fa-cart-arrow-down"></i>
+            </div>
+          </div>
+          <div className="last-icons">
+            <div className="stars">
+              <img src="/stars-icon.png" className="star-icon" />
+            </div>
+            <div className="heart">
+              <i className="fa-regular fa-heart"></i>
+            </div>
+          </div>
+        </div>
+        <div className="cart-one">
+          <div className="cart-img">
+            <img src="apple-img.png" className="apple" alt="" />
+          </div>
+          <div className="cart-1">
+            <div className="cart-text">
+              <p className="apple-para">Apple</p>
+              <p className="dollar">$13.00</p>
+            </div>
+            <div className="cart-imgs">
+              <i className="fa-solid fa-cart-arrow-down"></i>
+            </div>
+          </div>
+          <div className="last-icons">
+            <div className="stars">
+              <img src="/stars-icon.png" className="star-icon" />
+            </div>
+            <div className="heart">
+              <i className="fa-regular fa-heart"></i>
+            </div>
+          </div>
+        </div>
+        <div className="cart-one">
+          <div className="cart-img">
+            <img src="apple-img.png" className="apple" alt="" />
+          </div>
+          <div className="cart-1">
+            <div className="cart-text">
+              <p className="apple-para">Apple</p>
+              <p className="dollar">$13.00</p>
+            </div>
+            <div className="cart-imgs">
+              <i className="fa-solid fa-cart-arrow-down"></i>
+            </div>
+          </div>
+          <div className="last-icons">
+            <div className="stars">
+              <img src="/stars-icon.png" className="star-icon" />
+            </div>
+            <div className="heart">
+              <i className="fa-regular fa-heart"></i>
+            </div>
+          </div>
+        </div>
+        <div className="cart-one">
+          <div className="cart-img">
+            <img src="apple-img.png" className="apple" alt="" />
+          </div>
+          <div className="cart-1">
+            <div className="cart-text">
+              <p className="apple-para">Apple</p>
+              <p className="dollar">$13.00</p>
+            </div>
+            <div className="cart-imgs">
+              <i className="fa-solid fa-cart-arrow-down"></i>
+            </div>
+          </div>
+          <div className="last-icons">
+            <div className="stars">
+              <img src="/stars-icon.png" className="star-icon" />
+            </div>
+            <div className="heart">
+              <i className="fa-regular fa-heart"></i>
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   );
 };
