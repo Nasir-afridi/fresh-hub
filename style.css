@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open sans", "sans-sarif";
+}
+
+body {
+  height: 100vh;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+}
+
+a:hover {
+  color: palevioletred;
+}
+
+/* HEADER */
+
+header {
+  position: relative;
+  padding: 0 2rem;
+}
+
+.navbar {
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+  margin: 0 auto;
+  max-width: 1200px;
+  align-items: center;
+  height: 60px;
+}
+
+.logo {
+  width: 20%;
+}
+
+.fresh-hub-logo {
+  max-width: 30%;
+}
+
+.navbar .links {
+  display: flex;
+  gap: 2rem;
+}
+
+.navbar .toggle-btn {
+  color: black;
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: none;
+}
+
+.Log-in {
+  background-color: peru;
+  color: black;
+  padding: 0.8rem 2rem;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}

@@ -6,50 +6,65 @@
 }
 
 body {
-  height: 3000px;
+  height: 100vh;
 }
 
-.icon {
-  width: 50px;
-  margin-top: 15px;
-  cursor: pointer;
+header {
+  height: 65px;
+  position: relative;
+  padding: 0 2rem;
 }
-.list {
+
+.navbar {
   width: 100%;
-}
-
-nav{
   display: flex;
   align-items: center;
-  width: 80%;
-  z-index: 10;
-  background-color: whitesmoke;
+  padding-top: 7px; 
+  .logo {
+    max-width: 50px;
+    .fresh-hub-icon {
+      width: 100%;
+    }
+  }
+  .nav-links {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px;
+  }
+
 }
 
+.navbar .unordered-list {
+  display: flex;
+  gap: 2rem;
+}
 
-@media (min-width: 1280px) {
-  nav {
-      margin-left: 8%; 
-      margin-right: 8%;
+.navbar .toggle-btn {
+  color: black;
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: none;
+}
+
+@media screen and (max-width:707px) {
+  .navbar .unordered-list {
+     display: none;
+}
+
+  .navbar .toggle-btn {
+    display: block;
   }
 }
 
-ul {
-  display: flex;
-  margin-left: 10%;
-  margin-right: 8%;
-  align-items: center;
-}
 
-li {
-  margin-right: 30px;
-}
 
 .hero-container {
   background: linear-gradient(180deg, #FCFCF7 6.5%, #1F5E7C 100%);
-  height: 520px;
-  margin-top: 2%;
-
+  min-height: 80vh;
+  height: auto;
+  max-width: 100%;
+  padding-bottom: 15px;
 }
 
 .sub-container {
@@ -58,6 +73,7 @@ li {
 }
 
 .container {
+  max-width: 70%;
   margin-top: 3%;
 }
 
@@ -68,11 +84,6 @@ li {
   font-weight: bolder;
   line-height:75px;
 }
-@media (max-width: 720px) {
-  .hero-section-heading {
-      margin-left: 5%;
-  }
-}
 
 .grocessary {
   color: rgba(31,94,124,255);
@@ -80,16 +91,21 @@ li {
 }
 
 .img-container {
-  width: 380px;
+  max-width: 30%;
+  width: 30%;
   margin-right: 40px;
   bottom: 10px;
 }
 
 .hero-img {
-  max-width: 400px;
-  position: relative;
+  max-width: 100%;
   bottom: 30;
+}
 
+@media screen and (max-width:707px) {
+  .hero-img {
+     display: none;
+}
 }
 
 .description {
@@ -133,7 +149,7 @@ li {
 }
 
 .descrip {
-  font-size: 10px;
+  font-size: 0.9rem;
   margin-top: 10px;
   font-weight: bold;
 }
@@ -144,7 +160,6 @@ li {
 }
 
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f0f0f0;
@@ -409,4 +424,19 @@ body {
 
 .star-icon {
   max-width: 60%;
+}
+
+body {
+  height: 3000px;
+}
+
+.footer-main-container {
+  background-color: #1F5E7C;
+  min-width: 100%;
+  // max-width: 100%;
+  
+
+  .footer-container {
+
+  }
 }

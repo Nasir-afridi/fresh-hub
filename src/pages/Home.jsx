@@ -8,6 +8,7 @@ import Eco from "../components/eco-container/Eco";
 const Home = () => {
   return (
     <>
+      {" "}
       <div className="hero-container">
         <div className="sub-container">
           <div className="container">
@@ -45,7 +46,6 @@ const Home = () => {
       <Banner />
       <Categories />
       <Eco />
-
       <div className="sell-container">
         <div className="line-one">
           <div className="cart-one">
@@ -228,6 +228,17 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <footer className="footer-main-container">
+        <div className="footer-container">
+          <div className="element-one">
+            <p>FreshHuB</p>
+            <p className="lorem">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+              facilisi
+            </p>
+          </div>
+        </div>
+      </footer>
     </>
   );
 };
