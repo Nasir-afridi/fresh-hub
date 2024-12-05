@@ -430,13 +430,59 @@ body {
   height: 3000px;
 }
 
-.footer-main-container {
+footer {
   background-color: #1F5E7C;
-  min-width: 100%;
-  // max-width: 100%;
-  
+  color: #fff;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 30px;
+}
 
-  .footer-container {
+.footer-container {
+  max-width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
 
-  }
+.footer-section {
+  flex: 1;
+  margin-right: 30px;
+}
+
+.footer-section h4 {
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  color:   
+#fff;
+  text-decoration: none;
+}
+
+.footer-section ul   
+li a i {
+  margin-right: 5px;
+}
+
+.footer-section ul li img {
+  width: 100px;
+}
+
+/* Replace the placeholders with your actual image paths for Google Play and App Store logos */
+.footer-section ul li img[alt="Google Play"] {
+  width: 100px; /* Adjust the width as needed */
+}
+
+.footer-section ul li img[alt="App Store"] {
+  width: 100px; /* Adjust the width as needed */
 }

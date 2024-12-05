@@ -8,7 +8,7 @@ import Eco from "../components/eco-container/Eco";
 const Home = () => {
   return (
     <>
-      {" "}
+     
       <div className="hero-container">
         <div className="sub-container">
           <div className="container">
@@ -228,14 +228,78 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <footer className="footer-main-container">
-        <div className="footer-container">
-          <div className="element-one">
-            <p>FreshHuB</p>
-            <p className="lorem">
+      <footer>
+        <div class="footer-container">
+          <div class="footer-section">
+            <h4>Real Estate Website</h4>
+            <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-              facilisi
+              facilisi.
             </p>
+          </div>
+          <div class="footer-section">
+            <h4>Company</h4>
+            <ul>
+              <li>
+                <a href="#">About Us</a>
+              </li>
+              <li>
+                <a href="#">Why Choose Us</a>
+              </li>
+              <li>
+                <a href="#">Testimonial</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Resources</h4>
+            <ul>
+              <li>
+                <a href="#">Privacy Policy</a>
+              </li>
+              <li>
+                <a href="#">Terms & Conditions</a>
+              </li>
+              <li>
+                <a href="#">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            {" "}
+            <h4>Follow Us</h4>
+            <ul>
+              <li>
+                <a href="#">
+                  <i class="fab fa-youtube"></i> YouTube
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fab fa-instagram"></i> Instagram
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fab fa-facebook"></i> Facebook
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Find Us</h4>
+            <ul>
+              <li>
+                <a href="#">
+                  <img src="google-play.png" alt="Google Play" />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="app-store.png" alt="App Store" />
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
       </footer>
